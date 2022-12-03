@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.9c1c9cee.css",
+    "main.js": "/personal-portfolio/static/js/main.9117c7cb.js",
+    "static/media/weather-app.png": "/personal-portfolio/static/media/weather-app.26a20d149f62ea42fbb1.png",
+    "static/media/arhan.png": "/personal-portfolio/static/media/arhan.8b9d7dbed45031572bf1.png",
+    "static/media/weather-app-forecast.png": "/personal-portfolio/static/media/weather-app-forecast.c67b825b206d0e49768d.png",
+    "static/media/lyrics.png": "/personal-portfolio/static/media/lyrics.7352f3c6fa9e94ff09ad.png",
+    "static/media/website.png": "/personal-portfolio/static/media/website.472f65a679fdfde233d4.png",
+    "static/media/arhan-hawaii.jpg": "/personal-portfolio/static/media/arhan-hawaii.b61d9c21c1c8297d0387.jpg",
+    "static/media/tic-tac-toe.png": "/personal-portfolio/static/media/tic-tac-toe.a0bda332b5c041aaebd9.png",
+    "static/media/calcu.png": "/personal-portfolio/static/media/calcu.78d50ed4a087dcee59b9.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.9c1c9cee.css.map": "/personal-portfolio/static/css/main.9c1c9cee.css.map",
+    "main.9117c7cb.js.map": "/personal-portfolio/static/js/main.9117c7cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c1c9cee.css",
+    "static/js/main.9117c7cb.js"
+  ]
+}
