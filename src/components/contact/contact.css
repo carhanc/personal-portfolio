@@ -1,0 +1,100 @@
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    margin-bottom: 7rem;
+}
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.btn {
+    font-size: 1rem;
+}
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.6rem;
+    display: inline-block;
+    font-size: 0.86rem;
+}
+
+.contact__option h5 {
+    color: var(--color-light);
+}
+
+/* ====== Form ====== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+form ::placeholder {
+    color: var(--color-primary);
+    font-size: 0.96rem;
+}
+
+.form__text-size {
+    font-size: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-mt {
+    padding-top: 3rem;
+}
+
+/* ====== Media Queries (Medium Devices) ====== */
+
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        width: var(--container-width-md);
+        gap: 2rem;
+    }
+
+    .contact__option {
+        grid-template-columns: 2fr;
+    }
+ }
+
+/* ====== Media Queries (Small Devices) ====== */
+
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        width: var(--container-width-sm);
+    }
+}
