@@ -28,7 +28,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 11.8rem;
+    bottom: 4.6rem;
 }
 
 .header__socials::after {
@@ -70,7 +70,7 @@ header h2 {
     header {
      height: 68vh;
     }
-    
+
     .header__socials {
         display: none;
     }
@@ -87,3 +87,4 @@ header h2 {
         display: none;
     }
 }
+
